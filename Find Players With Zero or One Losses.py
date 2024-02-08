@@ -1,5 +1,6 @@
+from collections import defaultdict
 class Solution:
-    def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
+    def findWinners(self, matches: list[list[int]]) -> list[list[int]]:
         dc = defaultdict(int)
         for match in matches:
             for element in match:
