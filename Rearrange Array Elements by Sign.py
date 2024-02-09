@@ -1,5 +1,5 @@
 class Solution:
-    def rearrangeArray(self, nums: List[int]) -> List[int]:
+    def rearrangeArray(self, nums: list[int]) -> list[int]:
         lists = [0]*len(nums)
         j = 0
         k = 1
