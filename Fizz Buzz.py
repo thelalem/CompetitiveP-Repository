@@ -1,5 +1,5 @@
 class Solution:
-    def fizzBuzz(self, n: int) -> List[str]:
+    def fizzBuzz(self, n: int) -> list[str]:
         answer = []
         for i in range(1,n+1):
             if i % 3 == 0:
